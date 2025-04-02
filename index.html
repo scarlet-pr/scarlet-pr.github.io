@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRATPAGE</title>
+
+    <!-- CSS -->
+     <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        /*Estilo de cuerpo de la pagina*/
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        /*Header y titulo*/
+        .header{
+            background-color: #8ACE00;
+            color: rgb(0, 0, 0);
+            padding: 35px;
+            text-align: center;
+        }
+
+        /*Barra de navegacion*/
+        .navbar{
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+        }
+
+        /*Enlaces de la barra de navegacion*/
+        .navbar a{
+            padding: 14px 20px;
+            text-decoration: none;
+            color:#8ACE00;
+            text-align: center;
+        }
+        
+        /*Efecto hover en los enlaces de la barra de navegacion*/
+        .navbar a:hover{
+            background-color: #ffffff;
+            color: black;
+        }
+
+        /*Contenido principal*/
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /*Barra lateral*/
+        .side{
+            flex: 30%;
+            padding: 20px;
+            background-color: #8ACE00;
+        }
+
+        /*columna principal*/
+        .main{
+            color: #ffffff;
+            flex: 70%;
+            padding: 20px;
+            background-color: #333;
+        }
+
+        /*Imagenes fake*/
+        .fakeimg{
+            /*background-color: #aaa;*/
+            width: 100%;
+            padding: 20px;
+        }
+
+        /*footer*/
+        .footer{
+            background-color: #ca00ce;
+            text-align: center;
+            padding: 2px;
+        }
+
+        /* responsive layout */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+        
+     </style>
+</head>
+<body>
+    <!--mensaje barra arriba-->
+    <div style="background: #ca00ce;padding: 5px;">
+        <h4 style="text-align: center;">mi pag.mp3 <3 </h4>
+    </div>
+ 
+    <!--header-->
+    <div class="header">
+        <h1>Verano 2024</h1>
+        <p>Donde todos tienen <b>EL REAL FLOW</b></p>
+    </div>
+    
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        <a href="">Inicio</a>
+        <a href="">Qué es</a>
+        <a href="">Contacto</a>
+    </div>
+
+    <!--Contenido principal-->
+    <div class="row">
+        <div class="side">
+            <h2>Reproducido sin parar...</h2>
+            <h5>brat.mp3</h5>
+            <div class="fakeimg" style="height: 200px;"><img src="imagenes/bratcore phone.jpg" alt="telefono" width="250" height="250"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>El sonido del verano moderno</p>
+            <h3>Brat es el sexto álbum de estudio de Charli XCX, inspirado en la escena rave ilegal de Londres, donde comenzó a actuar a los 14 o 15 años. Es su trabajo más agresivo y conflictivo, pero también el más vulnerable. </h3>
+            <p>Fue anunciado el 28 de febrero de 2024, un día antes del lanzamiento de su sencillo principal, Von Dutch. Es su primer álbum tras renovar contrato con Atlantic Records en 2023.</p>
+            <!--<div class="fakeimg" style="height: 60px;">Imagen</div>
+            <div class="fakeimg" style="height: 60px;">Imagen</div>
+            <div class="fakeimg" style="height: 60px;">Imagen</div>-->
+        </div>
+
+        <div class="main">
+            <h2>Charli XCX</h2>
+            <h5>La que más sonó el verano pasado</h5>
+            <div class="fakeimg" style="height: 200px;"><img src="https://assets.teenvogue.com/photos/66a2a4587635d5c439a72063/16:9/w_2560%2Cc_limit/Style_Brat_July2024_HEADER.jpg" alt="" height="400" width="900"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>"brat" es el sexto álbum de estudio de la cantautora británica Charli XCX, lanzado el 7 de junio de 2024 bajo el sello de Atlantic Records. La cantante anunció el disco el 28 de febrero de 2024 y al día siguiente fue publicado «Von Dutch» como sencillo. El 10 de mayo se lanzó «360» como el segundo sencillo para continuar con la promoción del álbum.</p>
+            <p>brat recibió elogios por parte de la crítica especializada destacando la vulnerabilidad de sus letras. Hasta junio de 2024 el álbum logró una puntuación de 95 sobre 100 en Metacritic, que lo convierte en el disco mejor calificado de la artista, del año y el decimosexto de todos los tiempos. Para promocionar el álbum, Charli se embarcaría en la gira Brat Tour (2024-2025).</p>
+            <br>
+            <!--<h2>Titulo</h2>
+            <h5>descripcion, 1 de marzo 2025</h5>
+            <div class="fakeimg" style="height: 200px;">Imagen</div>
+            <p>Texto</p>
+            <p>texto</p>-->
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <h4>Derechos reservados</h4>
+        <p>Scarlet Pimentel, 2025</p>
+
+</body>
+</html>
